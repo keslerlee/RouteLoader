@@ -21,5 +21,5 @@ RouteLoader is a ChatTriggers mod that allows players to quickly load routes ins
    - Download and install ChatTriggers from the [official website](https://www.chattriggers.com/).
 
 3. **Import RouteLoader:**
-   - Launch Minecraft and type `/ct import RouteLoader` in game chat.
+   - Launch Minecraft and type `/ct import RouteLoader` in chat.
    - Alternatively, download RouteLoader from GitHub and place the folder into the ChatTriggers modules folder located at `.minecraft/config/ChatTriggers/modules`.
