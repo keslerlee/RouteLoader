@@ -1,0 +1,7 @@
+{
+    "name": "RouteLoader",
+    "creator": "Kesler",
+    "description": "A JSON Route Loader For Minecraft",
+    "version": "1",
+    "entry": "index.js"
+}
