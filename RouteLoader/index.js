@@ -117,10 +117,10 @@ register("command", (action, arg) => {
         case "style":
             if (settings.style == 1) {
                 settings.style = 2;
-                ChatLib.chat(c + "[RouteLoader] &7Style Switched To Sequence");
+                ChatLib.chat(settings.chatColor + "[RouteLoader] &7Style Switched To Sequence");
             } else if (settings.style == 2) {
                 settings.style = 1;
-                ChatLib.chat(c + "[RouteLoader] &7Style Switched To All");
+                ChatLib.chat(settings.chatColor + "[RouteLoader] &7Style Switched To All");
             }
             FileLib.write("RouteLoader", "settings.json", JSON.stringify(settings), true);
             break;
