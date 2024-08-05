@@ -6,7 +6,7 @@ let validColors = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "
 
 function helpMessage() {
     ChatLib.chat("\n" + settings.chatColor + "[RouteLoader] &7Help" +
-                 "\n\n" + settings.chatColor + "Command Prefix&7: &a/routeloader &7or &a/rl" +
+                 "\n" + settings.chatColor + "Command Prefix&7: &a/routeloader &7or &a/rl" +
                  "\n&aload&7: " + settings.chatColor + "Loads &7route from " + settings.chatColor + "clipboard&7." +
                  "\n&asave [filename]&7:" + settings.chatColor + "Saves &7route to " + settings.chatColor + "file&7." +
                  "\n&aload [filename]&7: " + settings.chatColor + "Loads &7route from " + settings.chatColor + "file&7." +
@@ -18,11 +18,9 @@ function helpMessage() {
                  "\n&aback&7: &7Moves pointer " + settings.chatColor + "back one &7index." +
                  "\n&anext&7: &7Moves pointer " + settings.chatColor + "forward one &7index." +
                  "\n&ajumpto [x]&7: &7Moves pointer to the " + settings.chatColor + "x&7th " + settings.chatColor + "index &7(starting from 1)." +
-                 "\n\n" + settings.chatColor + "Quick Tips&7:" +
                  "\n&7Routes must be an " + settings.chatColor + "array &7in a " + settings.chatColor + "JSON &7format." +
                  "\n&7Each " + settings.chatColor + "object &7in the array must at least have an " + settings.chatColor + "x&7, " + settings.chatColor + "y&7, and " + settings.chatColor + "z &7value." +
-                 "\n&7View the routes in " + settings.chatColor + "ChatTriggers/modules/RouteLoader/routes&7, accessible using " + settings.chatColor + "/ct files&7." +
-                 "\n" + settings.chatColor + "RouteLoader &7is better than ColeWeight&7.");
+                 "\n&7Your routes are saved in " + settings.chatColor + "ChatTriggers/modules/RouteLoader/routes&7, accessible using " + settings.chatColor + "/ct files&7.");
 }
 
 function drawLine(x1, y1, z1, x2, y2, z2, red, green, blue, alpha, phase, lineWidth) {
