@@ -1,6 +1,6 @@
 # RouteLoader
 ### A JSON Route Loader For Minecraft
-![Help Menu](https://i.imgur.com/M5u4FUm.png)
+![Help Menu](helpmessage.png)
 
 ## Overview
 
